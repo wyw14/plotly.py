@@ -25,6 +25,7 @@ numpy. See examples here: https://plotly.com/python/graph-objects/
     )
 
 from ._imshow import imshow
+from ._lorenz import lorenz
 from ._chart_types import (  # noqa: F401
     scatter,
     scatter_3d,
@@ -102,6 +103,7 @@ __all__ = [
     "strip",
     "histogram",
     "ecdf",
+    "lorenz",
     "choropleth",
     "choropleth_map",
     "pie",

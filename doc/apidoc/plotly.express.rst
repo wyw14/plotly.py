@@ -33,6 +33,7 @@ plotly's high-level API for rapid figure generation. ::
     violin
     box
     ecdf
+    lorenz
     strip
     histogram
     pie

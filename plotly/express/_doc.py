@@ -78,6 +78,14 @@ docs = dict(
         colref_desc,
         "Values from this column or array_like are used to set values associated to sectors.",
     ],
+    weights=[
+        colref_type,
+        colref_desc,
+        "Values from this column or array_like are used as strictly positive weights for the "
+        "observations of `x` in a Lorenz curve.",
+        "If not provided, every observation is given a weight of 1.",
+        "Rows with missing weights are dropped pairwise with the missing values of `x`.",
+    ],
     parents=[
         colref_type,
         colref_desc,
