@@ -25,6 +25,7 @@ numpy. See examples here: https://plotly.com/python/graph-objects/
     )
 
 from ._imshow import imshow
+from ._missing_data import missing_data
 from ._chart_types import (  # noqa: F401
     scatter,
     scatter_3d,
@@ -111,6 +112,7 @@ __all__ = [
     "funnel",
     "funnel_area",
     "imshow",
+    "missing_data",
     "data",
     "colors",
     "trendline_functions",
