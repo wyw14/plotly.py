@@ -41,6 +41,7 @@ plotly's high-level API for rapid figure generation. ::
     icicle
     funnel
     funnel_area
+    survival
     scatter_matrix
     parallel_coordinates
     parallel_categories
