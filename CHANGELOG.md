@@ -5,6 +5,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## Unreleased
 
 ### Added
+- Added `px.agreement`, a Plotly Express Bland-Altman (mean-difference) plot for comparing two measurement methods on the same objects: each complete pair is drawn at (mean of the two values, `x` minus `y`), with horizontal reference lines for the mean difference and its mean +/- 1.96 sample standard deviations (n-1 denominator), hover tooltips showing both original values, their mean and difference, pairwise skipping of rows with missing measurements, and an error for present but non-finite or non-numeric values.
 - Add support for converting matplotlib reference lines (`axhline`, `axvline`, and horizontal/vertical `axline`) as well as axes-coordinate lines into Plotly layout shapes in `mpl_to_plotly`, including support for date axes [[#5719](https://github.com/plotly/plotly.py/pull/5719)], with thanks to @robertoffmoura for the contribution!
 
 ### Fixed

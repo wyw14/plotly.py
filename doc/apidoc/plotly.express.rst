@@ -35,6 +35,7 @@ plotly's high-level API for rapid figure generation. ::
     ecdf
     strip
     histogram
+    agreement
     pie
     treemap
     sunburst
