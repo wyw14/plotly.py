@@ -25,6 +25,7 @@ numpy. See examples here: https://plotly.com/python/graph-objects/
     )
 
 from ._imshow import imshow
+from ._transition_matrix import transition_matrix
 from ._chart_types import (  # noqa: F401
     scatter,
     scatter_3d,
@@ -111,6 +112,7 @@ __all__ = [
     "funnel",
     "funnel_area",
     "imshow",
+    "transition_matrix",
     "data",
     "colors",
     "trendline_functions",

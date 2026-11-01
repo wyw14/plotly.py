@@ -50,6 +50,7 @@ plotly's high-level API for rapid figure generation. ::
     density_heatmap
     density_map
     imshow
+    transition_matrix
     get_trendline_results
 
 
